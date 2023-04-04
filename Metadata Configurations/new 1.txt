@@ -1,0 +1,17 @@
+"source": {
+        "format_type": "file",
+        "file_path": "C:/Users/laxman_wadekar/Desktop/output/sample.parquet",
+        "file_format": "parquet",
+        "db_type": "pgsql",
+        "no_sql_conn": null,
+        "database": "sample_db",
+        "collection": "sample_collection",
+        "table_name": "parquet_table",
+        "user": "postgres",
+        "host": "localhost",
+        "password": 1234,
+        "port": 5432,
+        "sql_query_to_run": null,
+        "temp_view": "table",
+        "attributes": null
+    }

@@ -1,0 +1,55 @@
+# dit.yml
+version: v1
+metadata:
+  name: file-to-db-ingestor
+
+# specifications for running the process
+runSpecs:
+    frequency_in_mins: 5
+    parallelism: 10
+    run_tasks: task1 | task2
+      - name: task1
+        description: connect to source and read data
+        function_name: call_a_python_or_scala_function
+      - name: task2
+        description: connect to target and write data
+        function_name: call_a_python_or_scala_function
+
+# Source system connection info
+source:
+    format_type: file_s3 | file_local | db_table | db_sql | nosql | cache
+    file_path: 'D:/PySpark/test.csv'
+    file_format: csv | parquet
+    db_conn:
+    table_name:
+    no_sql_conn:
+    sql_query_to_run:
+
+# Source data details
+    attributes:
+      - col_name: id
+        data_type: int64
+      - col_name: name
+        data_type: string
+
+# Target system connection info
+target:
+    format_type: file_s3 | file_local | db_table | db_sql | nosql | cache
+    file_path: 'D:/PySpark/target.csv'
+    file_format: csv | parquet
+    db_conn:
+    table_name:
+    no_sql_conn:
+
+# target data details
+    attributes:
+      - col_name: id
+        data_type: int64
+        primary_key: true
+      - col_name: name
+        data_type: string
+      - col_name: dob
+        data_type: date
+        format: yyyy-mm-dd
+
+

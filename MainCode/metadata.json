@@ -1,0 +1,34 @@
+{
+    "version": "v1",
+    "metadata": {
+        "name": "Data Ingestion Tool"
+    },
+
+    "source": {
+        "format_type": "file",
+        "file_path": "D:/Technothon_Project/Dataset_Technothon/archive/acc_17.csv",
+        "file_format": "csv",
+        "db_type": null,
+        "database": null,
+        "table_name": null,
+        "user": null,
+        "host": null,
+        "password": null,
+        "port": null,
+        "sql_query_to_run": "select * from table where region=4",
+        "temp_view": "table",
+        "attributes": null
+    },
+    "target": {
+        "format_type": "file",
+        "file_path": "C:/Users/laxman_wadekar/Desktop/out",
+        "file_format": "csv",
+        "db_type": null,
+        "database": null,
+        "table_name": null,
+        "user": null,
+        "host": null,
+        "password": null,
+        "port": null
+    }
+}

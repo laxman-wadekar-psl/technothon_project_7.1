@@ -1,0 +1,22 @@
+-----------------------------------------------
+            input
+-----------------------------------------------
+C:/Users/laxman_wadekar/Desktop/Dataset_Technothon/archive/acc_17.csv
+
+D:/PySpark/test.csv
+
+C:/Users/laxman_wadekar/Desktop/sample.parquet
+
+
+-----------------------------------------------
+            output
+-----------------------------------------------
+C:/Users/laxman_wadekar/Desktop/output
+
+,
+            {
+                "col_name": "dob",
+                "data_type": "date",
+                "format": "yyyy-mm-dd"
+            }
+

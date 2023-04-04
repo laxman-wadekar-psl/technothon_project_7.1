@@ -1,0 +1,12 @@
+"target": {
+        "format_type": "db",
+		"file_path": null,
+        "file_format": null,
+        "db_type": "pgsql",
+        "database": "sample_db",
+        "table_name": "table_demo_4",
+        "user": "postgres",
+        "host": "localhost",
+        "password": 1234,
+        "port": 5432
+    }

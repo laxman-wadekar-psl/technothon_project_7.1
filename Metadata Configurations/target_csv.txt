@@ -1,0 +1,12 @@
+"target": {
+        "format_type": "file",
+        "file_path": "C:/Users/laxman_wadekar/Desktop/out",
+        "file_format": "csv",
+        "db_type": null,
+        "database": null,
+        "table_name": null,
+        "user": null,
+        "host": null,
+        "password": null,
+        "port": null
+    }

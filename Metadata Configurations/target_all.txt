@@ -1,0 +1,29 @@
+"target": {
+        "format_type": "file",
+        "file_path": "C:/Users/laxman_wadekar/Desktop/out",
+        "file_format": "csv",
+        "db_type": "pgsql",
+        "no_sql_conn": null,
+        "database": "sample_db",
+        "table_name": "new_test_table",
+        "user": "postgres",
+        "host": "localhost",
+        "password": 1234,
+        "port": 5432,
+        "attributes": [
+            {
+                "col_name": "id",
+                "data_type": "int64",
+                "primary_key": true
+            },
+            {
+                "col_name": "name",
+                "data_type": "string"
+            },
+            {
+                "col_name": "birthdate",
+                "data_type": "date",
+                "format": "yyyy-mm-dd"
+            }
+        ]
+    }
